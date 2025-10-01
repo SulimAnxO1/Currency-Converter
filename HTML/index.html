@@ -15,13 +15,13 @@
   <body>
     <div class="container">
       <h2>Currency Converter</h2>
-      <form>
+      <form class="form">
         <div class="amount">
           <p>Enter Amount</p>
           <input
             value="00.00"
             type="text"
-            placeholder="Enter amount"
+            placeholder="Enter Amount"
             title="Enter the amount to convert" />
         </div>
         <div class="dropdown">
@@ -31,34 +31,28 @@
               <img
                 src="https://flagsapi.com/US/flat/64.png"
                 alt="Currency flag" />
-              <select name="from" title="Select the currency to convert from">
-                <option value="USD" selected>USD</option>
-                <option value="BDT">BDT</option>
-                <option value="EUR">EUR</option>
-                <option value="INR">INR</option>
-                <option value="AUD">AUD</option>
-              </select>
+              <select
+                name="from"
+                title="Select the currency to convert from"></select>
             </div>
           </div>
-          <i class="fa-solid fa-rotate"></i>
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
           <div class="to">
             <p>to</p>
             <div class="select-container">
               <img
                 src="https://flagsapi.com/AU/flat/64.png"
                 alt="Currency flag" />
-              <select name="from" title="Select the currency to convert from">
-                <option value="USD">USD</option>
-                <option value="BDT">BDT</option>
-                <option value="EUR">EUR</option>
-                <option value="INR">INR</option>
-                <option value="AUD" selected>AUD</option>
-              </select>
+              <select
+                name="to"
+                title="Select the currency to convert to"></select>
             </div>
           </div>
         </div>
-        <div class="msg">1 USD = 1.51 AUD</div>
-        <button type="button">Get Exchange Rate</button>
+        <div class="msg"></div>
+        <button type="button" title="Get Exchange Rate">
+          Get Exchange Rate
+        </button>
       </form>
     </div>
     <script src="/JavaScript/contry.js"></script>
