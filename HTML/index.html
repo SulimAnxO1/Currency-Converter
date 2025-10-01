@@ -4,8 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Converter</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
   </head>
   <body>
+    <div class="container">
+      <h2>Currency Converter</h2>
+      <form>
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input
+            value="00.00"
+            type="text"
+            placeholder="Enter amount"
+            title="Enter the amount to convert" />
+        </div>
+        <div class="dropdown">
+          <div class="from">
+            <p>from</p>
+            <div class="select-container">
+              <img src="" alt="Currency flag" />
+              <select name="from" title="Select the currency to convert from">
+                <option value="USD">USD</option>
+                <option value="BDT">BDT</option>
+                <option value="EUR">EUR</option>
+                <option value="INR">INR</option>
+                <option value="AUD">AUD</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
     <script src="/JavaScript/index.js"></script>
   </body>
 </html>
