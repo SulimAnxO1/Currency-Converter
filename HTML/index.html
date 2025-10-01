@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Converter</title>
     <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="container">
@@ -22,9 +28,11 @@
           <div class="from">
             <p>from</p>
             <div class="select-container">
-              <img src="" alt="Currency flag" />
+              <img
+                src="https://flagsapi.com/US/flat/64.png"
+                alt="Currency flag" />
               <select name="from" title="Select the currency to convert from">
-                <option value="USD">USD</option>
+                <option value="USD" selected>USD</option>
                 <option value="BDT">BDT</option>
                 <option value="EUR">EUR</option>
                 <option value="INR">INR</option>
@@ -32,9 +40,28 @@
               </select>
             </div>
           </div>
+          <i class="fa-solid fa-rotate"></i>
+          <div class="to">
+            <p>to</p>
+            <div class="select-container">
+              <img
+                src="https://flagsapi.com/AU/flat/64.png"
+                alt="Currency flag" />
+              <select name="from" title="Select the currency to convert from">
+                <option value="USD">USD</option>
+                <option value="BDT">BDT</option>
+                <option value="EUR">EUR</option>
+                <option value="INR">INR</option>
+                <option value="AUD" selected>AUD</option>
+              </select>
+            </div>
+          </div>
         </div>
+        <div class="msg">1 USD = 1.51 AUD</div>
+        <button type="button">Get Exchange Rate</button>
       </form>
     </div>
-    <script src="/JavaScript/index.js"></script>
+    <script src="/JavaScript/contry.js"></script>
+    <script src="/JavaScript/function.js"></script>
   </body>
 </html>
