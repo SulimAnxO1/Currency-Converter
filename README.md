@@ -3,8 +3,6 @@
 A responsive **Currency Converter Web App** built with **HTML, CSS, and JavaScript**.  
 It uses the **ExchangeRate API** to fetch live exchange rates and lets you convert between currencies with real-time flag updates.
 
-🌐 Live Demo: [Try it here](https://currencey-converter-x01.netlify.app/)
-
 ---
 
 ## 📸 Preview
