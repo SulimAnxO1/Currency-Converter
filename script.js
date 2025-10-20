@@ -10,6 +10,7 @@ window.addEventListener("load", fetchCurrencies);
 
 converterForm.addEventListener("submit", convertCurrency);
 
+// CALL API
 async function fetchCurrencies() {
   const response = await fetch(
     "https://api.exchangerate-api.com/v4/latest/USD"
@@ -32,6 +33,7 @@ async function fetchCurrencies() {
   });
 }
 
+//
 async function convertCurrency(e) {
   e.preventDefault();
 
