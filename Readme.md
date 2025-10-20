@@ -13,9 +13,8 @@ Designed with a clean interface and smooth functionality for easy and accurate c
 
 ## 🖼️ Preview
 
-### ![Currency Converter Preview](/Image/preview1.png)
-
-### ![Currency Converter Preview](/Image/preview2.png)
+![Currency Converter Preview](/Image/preview1.png)
+![Currency Converter Preview](/Image/preview2.png)
 
 ---
 
