@@ -33,7 +33,7 @@ async function fetchCurrencies() {
   });
 }
 
-//
+// RESULT
 async function convertCurrency(e) {
   e.preventDefault();
 
