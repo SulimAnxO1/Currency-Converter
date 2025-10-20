@@ -23,6 +23,7 @@
             type="number"
             id="amount"
             placeholder="Enter amount"
+            onkeydown="return !['e','E','+','-'].includes(event.key)"
             required />
         </div>
 
